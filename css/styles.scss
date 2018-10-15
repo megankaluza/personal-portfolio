@@ -1,0 +1,393 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Molle:400i|Yanone+Kaffeesatzz|Cookie|Lora|Dosis|Yellowtail');
+
+// Libraries
+// @import "libraries/neat/neat";
+// @import "libraries/bourbon/bourbon";
+// @import "libraries/saffron/saffron";
+// Sass Components
+@import "base/index";
+
+body {
+  width: 100%;
+}
+
+h2 {
+  color: $madder;
+  font-family: $stack-dosis;
+  font-variant: small-caps;
+  letter-spacing: .2em;
+  padding-top: .8em;
+}
+
+h3 {
+  // color: $black;
+  font-family: $stack-dosis;
+  font-size: 2em;
+  font-variant: small-caps;
+  padding: 2em;
+  letter-spacing: .2em;
+}
+
+h3.title {
+  // -webkit-text-fill-color: $white; /* Will override color (regardless of order) */
+  // -webkit-text-stroke-width: .1px;
+  // -webkit-text-stroke-color: $black;
+  padding: .5em;
+}
+
+p {
+  font-family: $stack-lora;
+  padding: 1.5em;
+}
+
+span {
+  color: $blue;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact {
+  @extend %centered;
+}
+
+.container {
+  display: flex-inline;
+}
+
+.content {
+  border: 2px solid $black;
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+}
+
+.credentials {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 1em;
+  width: 45%;
+}
+
+.exit {
+  display: block;
+  margin: 0 auto;
+  width: 30px;
+}
+
+.grow {
+  width: 70px;
+  transition: all .2s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.icon {
+  margin: 1em;
+  width: 3em;
+}
+
+.image {
+  width: 90%;
+}
+
+.intro {
+  @extend %centered;
+  border-bottom: 1px solid $black;
+  background-color: $white;
+  height: 30%;
+}
+
+.label {
+  @extend %centered;
+  background: $white;
+  background-image: url('#{$path-img}/black-bubbles.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  border-bottom: 2px solid $black;
+  border-top: 2px solid $black;
+  a {
+    color: $white;
+  }
+  h3 {
+    color: $black;
+  }
+}
+
+.margin {
+  margin-bottom: 3em;
+}
+
+.name {
+  color: $black;
+}
+
+.savvy {
+  display: block;
+  margin: 0 auto;
+  padding: 2em;
+  width: 60%;
+}
+
+.social {
+  margin: 1.3em .2em;
+  width: 1.2em;
+}
+
+.plus-minus {
+  padding: 1em;
+}
+
+.plus-minus li a {
+  color: $black;
+  font-size: 2em;
+}
+
+.vertical-text {
+  color: $black;
+  font-family: $stack-dosis;
+  font-variant: small-caps;
+  font-size: .9em;
+  transform: rotate(-90deg);
+  display: inline-block;
+}
+
+// Columns
+.columns {
+  @extend %flex;
+}
+
+.column {
+  width: 200px;
+  border: 5px solid $white;
+  background: $black;
+  flex: .2;
+}
+
+.mainColumn {
+  flex: 2;
+}
+
+// Gallery
+.box {
+  width: 25%;
+  height: 500px;
+  flex-grow: 1;
+}
+
+.gallery {
+  @extend %flex;
+  // flex-basis: 0;
+  flex-wrap: wrap;
+  -webkit-filter: grayscale(100%);
+  &:hover {
+    opacity: 1;
+    filter: none;
+    -webkit-filter: grayscale(0%);
+  }
+}
+
+#imageOne,
+#imageTwo,
+#imageThree,
+#imageFour,
+#imageFive,
+#imageSix,
+#imageSeven,
+#imageEight,
+#imageNine,
+#imageTen,
+#imageEleven,
+#imageTwelve,
+#imageThirteen,
+#imageFourteen,
+#imageFifteen,
+#imageSixteen,
+#imageSeventeen,
+#imageEighteen,
+#imageNineteen,
+#imageTwenty,
+#imageInsta,
+#imageIcons,
+#imageBlue,
+#imageGreen,
+#imageRed,
+#imageEyes {
+  @extend %align;
+  @extend %image;
+  @extend %opacity;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+#imageOne {
+  background-image: url('#{$path-img}/aesthetic.png');
+}
+
+#imageTwo {
+  background-image: url('#{$path-img}/exodus.png');
+}
+
+#imageThree {
+  background-image: url('#{$path-img}/terra-forma.png');
+}
+
+// #imageFour {
+//   background-image: url('#{$path-img}/neurons.jpg');
+// }
+//
+// #imageFive {
+//   background-image: url('#{$path-img}/terra-forma.png');
+// }
+//
+// #imageSix {
+//   background-image: url('#{$path-img}/ping-pong.png');
+// }
+//
+// #imageSeven {
+//   background-image: url('#{$path-img}/graveyard_ninja.png');
+// }
+
+// #imageEight {
+//   background-image: url('#{$path-img}/terra-forma.svg');
+// }
+//
+// #imageNine {
+//   background-image: url('#{$path-img}/ping-pong.svg');
+// }
+
+#imageTen {
+  background-image: url('#{$path-img}/originals.png');
+}
+
+#imageEleven {
+  background-image: url('#{$path-img}/next.png');
+}
+
+#imageTwelve {
+  background-image: url('#{$path-img}/last.png');
+}
+
+// #imageThirteen {
+//   background-image: url('#{$path-img}/donny.png');
+// }
+//
+// #imageFourteen {
+//   background-image: url('#{$path-img}/charley_harper.png');
+// }
+//
+// #imageFifteen {
+//   background-image: url('#{$path-img}/pink.png');
+// }
+
+#imageSixteen {
+  background-image: url('#{$path-img}/tumblr.png');
+}
+
+#imageSeventeen {
+  background-image: url('#{$path-img}/adidas.png');
+}
+
+#imageEighteen {
+  background-image: url('#{$path-img}/mobile.png');
+}
+
+#imageNineteen {
+  background-image: url('#{$path-img}/bk.png');
+}
+
+#imageTwenty {
+  background-image: url('#{$path-img}/fashion-mock-up.png');
+}
+
+#imageInsta {
+  background-image: url('#{$path-img}/ig.png');
+}
+
+// #imageIcons {
+//   background-image: url('#{$path-img}/icons.svg');
+// }
+//
+// #imageGreen {
+//   background-image: url('#{$path-img}/green.svg');
+// }
+//
+// #imageRed {
+//   background-image: url('#{$path-img}/red.svg');
+// }
+//
+// #imageBlue {
+//   background-image: url('#{$path-img}/blue.svg');
+// }
+//
+// #imageEyes {
+//   background-image: url('#{$path-img}/eyes.svg');
+// }
+
+// Media Queries
+@media only screen and
+(min-width: 1024px)
+and (max-width: 1025px) {
+  .social {
+    margin: 18em .2em;
+    width: 1.2em;
+  }
+}
+
+@media only screen and
+(min-width: 667px)
+and (max-width: 768px) {
+  .label {
+    background-image: url('#{$path-img}/hidden.svg');
+  }
+
+  .social {
+    margin: 9em .2em;
+    width: 1.2em;
+  }
+  //Modal//
+  .ui.modal {
+    width: 88%;
+  }
+}
+
+@media only screen
+and (max-width: 415px) {
+  .content {
+    border: 2px solid $black;
+    display: block;
+    margin: 0 auto;
+    width: 290px;
+  }
+
+  .gallery .box {
+    width: 100%;
+    height: 500px;
+    background-size: contain;
+  }
+
+  .label {
+    background-image: url('#{$path-img}/hidden.svg');
+  }
+
+  .menu li {
+    padding: 3em;
+  }
+
+  .modal {
+    width: 100%;
+  }
+
+  .name {
+    font-size: 1.6em;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+  }
+}

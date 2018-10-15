@@ -1,0 +1,12 @@
+// Footer
+#footer-title {
+  @extend %centered;
+  font-family: $stack-molle;
+  font-size: 1em;
+  margin: 1em;
+  text-shadow: 10px 2px 10px $silver;
+}
+
+#footer {
+  font-size: 3em;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="153px" height="153px" viewBox="0 0 153 153" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>Eye</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-206.000000, -270.000000)" stroke="#FFFFFF">
+            <g id="Eye" transform="translate(193.000000, 272.000000)">
+                <circle id="Middle-Eye" stroke-width="3" cx="89.4223195" cy="74.4496388" r="74.4496388"></circle>
+                <circle id="Inner-Eye" stroke-width="2" cx="89.4160975" cy="74.4434168" r="40.3566756"></circle>
+                <g id="Mini-Eye-Balls" transform="translate(102.578791, 53.200802)">
+                    <circle id="1" stroke-width="4" cx="6.01545366" cy="6.05154141" r="6.01545366"></circle>
+                    <circle id="2" stroke-width="2" cx="12.2505448" cy="18.9305107" r="3.6492176"></circle>
+                    <circle id="3" stroke-width="2" cx="8.1234757" cy="32.334619" r="2.38925756"></circle>
+                    <circle id="4" stroke-width="2" cx="2.5485414" cy="36.9538502" r="1.91140605"></circle>
+                    <circle id="5" cx="7.32705651" cy="38.2281209" r="1.59283837"></circle>
+                </g>
+                <g id="Mini-Eyelashes" transform="translate(121.692852, 97.163141)" stroke-width="2" stroke-linecap="round">
+                    <path d="M1.43355453,1.75212221 L5.5749343,5.5749343" id="2"></path>
+                    <path d="M1.48845384,0.164611313 L6.7943057,2.06536241" id="1"></path>
+                    <path d="M0.257255562,2.45637835 L2.92842118,7.41921956" id="3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

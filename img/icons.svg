@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="596px" height="191px" viewBox="0 0 596 191" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="45" y="89" width="34" height="34" rx="8"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons">
+            <g id="github" transform="translate(38.000000, 32.000000)">
+                <circle id="Oval-2" stroke="#000000" stroke-width="3" cx="61.5" cy="61.5" r="61.5"></circle>
+                <g id="Head" stroke-width="1" fill-rule="evenodd" transform="translate(17.000000, 37.000000)" stroke="#000000" fill="#000000">
+                    <path d="M44.3319871,48.1958592 C62.3740324,48.1958592 77,43.3360853 77,25.29404 C77,7.2519947 44.3319871,9.04963169 44.3319871,9.04963169 C44.3319871,9.04963169 11.6639743,7.2519947 11.6639743,25.29404 C11.6639743,43.3360853 26.2899418,48.1958592 44.3319871,48.1958592 Z" id="Oval"></path>
+                    <polygon id="Triangle" transform="translate(77.334524, 11.334524) scale(-1, 1) rotate(-45.000000) translate(-77.334524, -11.334524) " points="77.3345238 3.31980515 85.3492424 19.3492424 69.3198052 19.3492424"></polygon>
+                    <polygon id="Triangle" transform="translate(11.334524, 11.334524) rotate(-45.000000) translate(-11.334524, -11.334524) " points="11.3345238 3.31980515 19.3492424 19.3492424 3.31980515 19.3492424"></polygon>
+                </g>
+                <g id="Rectangle-2">
+                    <use fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#000000" stroke-width="1" x="45.5" y="89.5" width="33" height="33" rx="8"></rect>
+                </g>
+                <text id="x" font-family="AmericanTypewriter, American Typewriter" font-size="25" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="54" y="70">x</tspan>
+                </text>
+            </g>
+            <g id="LinkedIn" transform="translate(172.000000, 32.000000)">
+                <g id="github-copy" stroke-width="1" fill-rule="evenodd" stroke="#000000">
+                    <circle id="Oval-2" stroke-width="3" cx="61.5" cy="61.5" r="61.5"></circle>
+                </g>
+                <text id="x" font-family="AmericanTypewriter, American Typewriter" font-size="25" font-weight="normal" fill="#000000">
+                    <tspan x="12" y="70">x</tspan>
+                </text>
+                <path d="M35,37.087257 L35.6759199,92.4484321 L45.8112358,96.3525709 L45.3963712,33.9773516 L35,37.087257 Z M50.8780069,24.7094816 L51.1860246,98.4938356 L61.3213406,102.665324 L61.3107127,51.6932102 L77.9064031,109.868235 L88.041719,114.500305 L88.7914837,8.63013092 L78.3652776,13.2859489 L78.0805401,73.2440399 L61.304213,20.5216567 L50.8780069,24.7094816 Z" id="iN" fill="#000000" fill-rule="evenodd"></path>
+            </g>
+            <g id="email" transform="translate(305.000000, 32.000000)">
+                <g>
+                    <text id="x" font-family="AmericanTypewriter, American Typewriter" font-size="25" font-weight="normal" fill="#000000">
+                        <tspan x="54" y="79">x</tspan>
+                    </text>
+                    <circle id="Oval-2" stroke="#000000" stroke-width="3" stroke-linecap="round" cx="61.5" cy="61.5" r="61.5"></circle>
+                    <path d="M62.5,42.5 L103.5,61.5" id="Line" stroke="#000000" stroke-linecap="round" transform="translate(83.000000, 52.000000) scale(1, -1) translate(-83.000000, -52.000000) "></path>
+                    <rect id="Rectangle-2" stroke="#000000" stroke-width="2" x="20" y="39" width="84" height="46" rx="8"></rect>
+                    <path d="M20.5,42.5 L62.5,61.5" id="Line" stroke="#000000" stroke-linecap="round"></path>
+                </g>
+            </g>
+            <g id="eyeblack" transform="translate(438.000000, 20.000000)">
+                <g>
+                    <text id="x" font-family="AmericanTypewriter, American Typewriter" font-size="37" font-weight="normal" fill="#000000">
+                        <tspan x="78" y="82">x</tspan>
+                    </text>
+                    <circle id="Oval" stroke="#000000" stroke-width="4" cx="55" cy="72" r="55"></circle>
+                    <path d="M63,45.5127711 L90.6187799,17" id="Line" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                    <path d="M52,38.1415144 L63,0" id="Line" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                    <circle id="Oval-Copy" stroke="#000000" stroke-width="3" cx="36.2083333" cy="72.4583333" r="36.2083333"></circle>
+                    <path d="M35,35.5 L35,7.5" id="Line" stroke="#000000" stroke-width="2" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

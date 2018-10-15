@@ -1,0 +1,69 @@
+// Flex
+%flex {
+  display: flex;
+}
+
+// Center
+%centered {
+  text-align: center;
+}
+
+// Opacity
+%opacity {
+  opacity: .5;
+}
+
+// Background Image
+%image {
+  // border: 4px solid $white;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+// Margin
+// %text {
+//   @extend %opacity;
+//   width: 50%;
+//   font-size: 1em;
+//   margin: 4em;
+//   padding: 2em;
+//   border-radius: 1em;
+// }
+
+// Navigation
+%navigation {
+  background: $white;
+  opacity: .5;
+  height: 51px;
+  border-bottom: 1px solid $black;
+}
+
+// Hover
+%hover {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  &:hover {
+        -webkit-filter: blur(2px);
+  }
+}
+
+// Vertical Rotate
+%rotate {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+// Align Center
+%align {
+  @extend %flex;
+  align-items: center;
+  justify-content: center;
+}

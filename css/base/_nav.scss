@@ -1,0 +1,303 @@
+// SCSS vars
+
+$button-width: 96px; // The width of the button area
+$button-width: 42px; // The width of the button area
+$button-height: 96px;// The height of the button area
+$button-height: 42px;// The height of the button area
+$bar-thickness: 8px; // The thickness of the button bars
+$bar-thickness: 2px; // The thickness of the button bars
+$button-pad: 18px;   // The left/right padding between button area and bars.
+$button-pad: 10px;   // The left/right padding between button area and bars.
+$button-bar-space: 12px;                // The spacing between button bars
+$button-bar-space: 4px;                // The spacing between button bars
+$button-transistion-duration: 0.3s;     // The transition duration
+$button-mar-L: 20px;
+
+$borderC: #000;
+$ham-bgr: #000;
+$cross-bgr: transparent;
+$nav-bgr-C: hsla(360, 100%, 100%, 0.75);
+$nav-bgr-C: hsla(63, 100%, 90%, 0.96);
+$nav-bgr-C: #fff;
+$nav-li-border: 1px solid $borderC;
+
+header {
+  // opacity: .8;
+  position: fixed;
+  position: absolute;
+  width: 100vw;
+  left: 0;
+  z-index: 100;
+  &::before {
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $button-height;
+    background-color: $cross-bgr;
+  }
+}
+.nav [type=checkbox] {display: none}
+.list-none {list-style: none}
+.floating-li > li{display: inline-block}
+
+.hamburger {
+  display: block;
+  // position: relative;
+  position: absolute;
+  right: $button-mar-L;
+  top: 0;
+  z-index: 2;
+  overflow: hidden;
+  // margin: 0;
+  padding: 0;
+  width: $button-width;
+  height: $button-height;
+  font-size: 0;
+  text-indent: -9999px;
+  cursor: pointer;
+  transition: background $button-transistion-duration;
+}
+
+.hamburger span {
+  display: block;
+  position: absolute;
+  top: ($button-height / 2) - ($bar-thickness / 2);
+  left: $button-pad;
+  right: $button-pad;
+  height: $bar-thickness;
+  // background: $white;
+  background: $black;
+}
+
+.hamburger span::before,
+.hamburger span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: $bar-thickness;
+  // background: $white;
+  background: $black;
+  content: "";
+}
+
+.hamburger span::before {
+  top: -$bar-thickness - $button-bar-space;
+}
+
+.hamburger span::after{
+  bottom: -$bar-thickness - $button-bar-space;
+}
+
+/** Hamburger to "x" (htx). Takes on a hamburger shape, bars slide
+* down to center and transform into an "x". */
+
+.hamburger--htx {background-color: $cross-bgr; }
+.hamburger--htx span {transition: background 0s $button-transistion-duration; }
+.hamburger--htx span::before,
+.hamburger--htx span::after {transition-duration: $button-transistion-duration, $button-transistion-duration; transition-delay: $button-transistion-duration, 0s; }
+.hamburger--htx span::before {transition-property: top, transform; }
+.hamburger--htx span::after {transition-property: bottom, transform; }
+
+/* active state, i.e. menu open */
+
+[type=checkbox]:checked ~ label {
+  background-color: darken($cross-bgr, 20%);
+
+  &::before {
+  }
+}
+
+[type=checkbox]:checked ~ label span {
+  background: none;
+}
+
+[type=checkbox]:checked ~ label span::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+[type=checkbox]:checked ~ label span::after{
+  bottom: 0;
+  transform: rotate(-45deg);
+}
+
+[type=checkbox]:checked ~ label span::before,
+[type=checkbox]:checked ~ label span::after {transition-delay: $button-transistion-duration, $button-transistion-duration; }
+.btn-container {
+}
+
+.menu {
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
+  background: $nav-bgr-C;
+  position: relative;
+  margin: 0;
+  padding: 0 $button-width;
+  transform: scale(1, 0);
+  transform-origin: top center;
+  transition:
+  transform 0.65s;
+}
+
+.menu a {
+  font-size: 2.7em;
+  color: $black;
+  &:hover {
+    color: $white;
+  }
+}
+
+.menu li {
+  height: $button-height;
+  line-height: $button-height;
+  text-align: center;
+  font-family: $stack-dosis;
+  font-variant: small-caps;
+  opacity: 0;
+  transition:
+  opacity $button-transistion-duration;
+  padding: 4em;
+  &:first-child {
+    margin-top: $button-width;
+  }
+}
+
+.menu li:last-child {border-bottom: none}
+
+[type=checkbox]:checked ~ label ~ .menu {
+  transform: scale(1);
+  // animation: strong-buzz-out 750ms 0 1 alternate ease-in-out forwards;
+  // animation-name: strong-buzz-out;
+  animation-name: slide-down;
+  animation-duration: 0.75s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  // animation-delay: $button-transistion-duration;
+}
+
+[type=checkbox]:checked ~ label ~ .menu li {
+  opacity: 1;
+  // transform: translateX(0);
+  transition-delay: $button-transistion-duration + 0.75s;
+  transition-delay: 0.75s;
+}
+
+.content-section {
+  min-height: 70vh;
+  padding: 2em 1em;
+  background-color: #fff;
+  h2 {
+  }
+  p {
+  }
+  h2 + p {
+  }
+}
+
+.colored {
+  background-color: $white;
+}
+
+.white {
+  background-color: $white;
+}
+
+.article {
+  // margin: 1em auto;
+  width: 100%;
+  // padding: 1em;
+  max-width: 70em;
+}
+
+@media  (min-width: 700px) {
+  .article {
+    column-count: 2;
+    column-gap: 4%;
+  }
+}
+
+@media  (min-width: 1000px) {
+  .article {
+    column-count: 3;
+    column-gap: 1%;
+  }
+}
+
+@keyframes slide-down {
+  0% { transform: scale(1, 0);}
+  100% { transform: scale(1, 1);}
+}
+
+@keyframes imitate-video {
+  0%, 100% {
+    transform:
+    scale(1)
+    translate(-50%, -50%);
+  }
+  40% {
+    transform:
+    scale(1.05)
+    translate(-50.5%, -49.75%);
+  }
+  60% {
+    transform:
+    scale(1.09)
+    translate(-48%, -48%);
+  }
+  // 100% {
+  //   transform:
+  //     scale(1)
+  //     translate(-50%, -50%);
+  // }
+}
+
+.fscreen {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  padding: 2em;
+}
+
+.fscreen-title {
+  position: relative;
+  top: 30%;
+  // animation: slide-title-in;
+  // animation-duration: 2000ms;
+  animation: slide-title-in 2000ms 1 alternate forwards;
+  -webkit-animation: slide-title-in 2000ms 1 alternate forwards;
+}
+
+// .video {
+//   position: absolute;
+//   z-index: -111;
+//   min-width: 100%;
+//   min-height: 100%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   width: 100%;
+//   height: 100%;
+// }
+
+@keyframes slide-title-in {
+  0% {
+    opacity: 0;
+    transform: translateY(50vh);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(50vh);
+  }
+  80% {
+    opacity: 0.1;
+    // transform: translateY(50vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
