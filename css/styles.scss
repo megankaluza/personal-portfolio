@@ -45,6 +45,13 @@ span {
   color: $blue;
 }
 
+.case-study {
+  display: block;
+  margin: 0 auto;
+  width: 55%;
+  height: 100%;
+}
+
 .center {
   margin-left: auto;
   margin-right: auto;
@@ -358,6 +365,13 @@ and (max-width: 768px) {
 
 @media only screen
 and (max-width: 415px) {
+  .case-study {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+  }
+
   .content {
     border: 2px solid $black;
     display: block;
