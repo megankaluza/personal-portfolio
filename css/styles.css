@@ -380,7 +380,8 @@ h3 {
   letter-spacing: .2em; }
 
 h3.title {
-  padding: .5em; }
+  padding: .5em;
+  text-align: center; }
 
 p {
   font-family: "Lora", serif;
@@ -565,9 +566,6 @@ span {
 
 #imageEighteen {
   background-image: url("../img/mobile.png"); }
-
-#imageNineteen {
-  background-image: url("../img/bk.png"); }
 
 #imageTwenty {
   background-image: url("../img/fashion-mock-up.png"); }

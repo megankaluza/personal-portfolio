@@ -34,6 +34,7 @@ h3.title {
   // -webkit-text-stroke-width: .1px;
   // -webkit-text-stroke-color: $black;
   padding: .5em;
+  text-align: center;
 }
 
 p {
@@ -304,9 +305,9 @@ span {
   background-image: url('#{$path-img}/mobile.png');
 }
 
-#imageNineteen {
-  background-image: url('#{$path-img}/bk.png');
-}
+// #imageNineteen {
+//   background-image: url('#{$path-img}/bk.png');
+// }
 
 #imageTwenty {
   background-image: url('#{$path-img}/fashion-mock-up.png');
