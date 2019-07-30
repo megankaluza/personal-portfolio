@@ -359,7 +359,7 @@ span {
   width: 30px; }
 
 .grow {
-  width: 70px;
+  width: 50px;
   transition: all .2s ease-in-out; }
   .grow:hover {
     transform: scale(1.1); }
