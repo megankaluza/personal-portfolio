@@ -1,10 +1,8 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Molle:400i|Yanone+Kaffeesatzz|Cookie|Lora|Dosis|Yellowtail');
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
 
-// Libraries
-// @import "libraries/neat/neat";
-// @import "libraries/bourbon/bourbon";
-// @import "libraries/saffron/saffron";
 // Sass Components
 @import "base/index";
 
@@ -12,38 +10,24 @@ body {
   width: 100%;
 }
 
-h2 {
-  color: $madder;
-  font-family: $stack-dosis;
-  font-variant: small-caps;
-  letter-spacing: .2em;
-  padding-top: .8em;
-}
-
 h3 {
-  // color: $black;
-  font-family: $stack-dosis;
   font-size: 2em;
   font-variant: small-caps;
+  font-family: $stack-cabin;
   padding: 2em;
-  letter-spacing: .2em;
 }
 
 h3.title {
-  // -webkit-text-fill-color: $white; /* Will override color (regardless of order) */
-  // -webkit-text-stroke-width: .1px;
-  // -webkit-text-stroke-color: $black;
   padding: .5em;
   text-align: center;
 }
 
 p {
-  font-family: $stack-lora;
   padding: 1.5em;
 }
 
 span {
-  color: $blue;
+  color: $madder;
 }
 
 .case-study {
@@ -156,10 +140,8 @@ span {
 }
 
 .vertical-text {
-  color: $black;
-  font-family: $stack-dosis;
-  font-variant: small-caps;
-  font-size: .9em;
+  color: $madder;
+  font-family: $stack-cabin;
   transform: rotate(-90deg);
   display: inline-block;
 }

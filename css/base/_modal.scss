@@ -1,16 +1,14 @@
-h4 {
-  color: $black;
-  font-family: $stack-dosis;
+h4,
+h5 {
+  font-family: 'Cabin', sans-serif;
   font-variant: small-caps;
-  font-size: 2em;
-  padding: .5em;
   text-align: center;
 }
 
-h5 {
-  font-family: $stack-dosis;
-  font-variant: small-caps;
-  text-align: center;
+h4 {
+  color: $black;
+  font-size: 2em;
+  padding: .5em;
 }
 
 .modal {
