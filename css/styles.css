@@ -29,7 +29,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageBlue,
 #imageGreen,
 #imageRed,
-#imageEyes, .columns, .gallery {
+#imageEyes,
+#imageSpecialist,
+#imageSpecialistBlack, .columns, .gallery {
   display: flex; }
 
 #footer-title, .contact, .intro, .label {
@@ -60,7 +62,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageBlue,
 #imageGreen,
 #imageRed,
-#imageEyes {
+#imageEyes,
+#imageSpecialist,
+#imageSpecialistBlack {
   opacity: .5; }
 
 #imageOne,
@@ -88,7 +92,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageBlue,
 #imageGreen,
 #imageRed,
-#imageEyes {
+#imageEyes,
+#imageSpecialist,
+#imageSpecialistBlack {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat; }
@@ -118,7 +124,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageBlue,
 #imageGreen,
 #imageRed,
-#imageEyes {
+#imageEyes,
+#imageSpecialist,
+#imageSpecialistBlack {
   align-items: center;
   justify-content: center; }
 
@@ -528,7 +536,9 @@ span {
 #imageBlue:hover,
 #imageGreen:hover,
 #imageRed:hover,
-#imageEyes:hover {
+#imageEyes:hover,
+#imageSpecialist:hover,
+#imageSpecialistBlack:hover {
   opacity: 1; }
 
 #imageOne {
@@ -572,6 +582,12 @@ span {
 
 #imageInsta {
   background-image: url("../img/ig.png"); }
+
+#imageSpecialist {
+  background-image: url("../img/hybrid-white.png"); }
+
+#imageSpecialistBlack {
+  background-image: url("../img/hybrid-cloud-specialist.png"); }
 
 @media only screen and (min-width: 1024px) and (max-width: 1025px) {
   .social {

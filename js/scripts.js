@@ -169,4 +169,18 @@ $(document).ready(function(){
     })
     .modal('show');
   });
+  $('#openSpecialist').click(function(){
+    $('.specialist')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+  $('#openSpecialistBlack').click(function(){
+    $('.specialistBlack')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
 });

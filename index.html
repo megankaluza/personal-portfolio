@@ -22,8 +22,10 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <title>M|Kaluza</title>
 </head>
+
 <body>
   <div class="wrapper">
+    <!-- Header -->
     <header>
       <div class="nav">
         <input type="checkbox" id="navigation" class="desktop-hide">
@@ -31,7 +33,6 @@
           <span class="hidden">menu</span>
         </label>
         <ul class="menu list-none">
-          <!-- <li><a href="#">Home<span>.</span></a></li> -->
           <li><a href="#about"><span class="vertical-text">01</span>About.</a></li>
           <li><a href="#websites"><span class="vertical-text">02</span>Websites.</a></li>
           <li><a href="#creations"><span class="vertical-text">03</span>Graphic Design.</a></li>
@@ -51,348 +52,204 @@
         <h3 class="name"><time id="time"></time></h3>
       </div>
     </div>
-    <!-- End Date/Time -->
 
-      <div class="intro">
-        <h3 class="signature">Megan Kaluza.</h3>
-      </div>
+    <!-- Name -->
+    <div class="intro">
+      <h3 class="signature">Megan Kaluza.</h3>
+    </div>
 
-      <div id="about">
-        <div class="content-section colored">
-          <h3 class="title"><span class="vertical-text">01</span>About.</h3>
-          <div class="content">
-            <p class="savvy"> Certified <span>+</span> Savvy <span>+</span> Front-end Website Developer <span>+</span> Graphic Designer <span>+</span> Visionary Artist</p>
+    <!-- About -->
+    <div id="about">
+      <div class="content-section colored">
+        <h3 class="title"><span class="vertical-text">01</span>About.</h3>
+        <div class="content">
+          <p class="savvy"> Certified <span>+</span> Savvy <span>+</span> Front-end Website Developer <span>+</span> Graphic Designer <span>+</span> Visionary Artist</p>
 
-            <p class="savvy"> Driven by learning cutting-edge skills && networking on a day-to-day basis. <span>+</span> I thrive on beautiful, responsive, and clean design by constantly building and growing my knowledge as an artist, programmer, and designer.</p>
+          <p class="savvy"> Driven by learning cutting-edge skills && networking on a day-to-day basis. <span>+</span> I thrive on beautiful, responsive, and clean design by constantly building and growing my knowledge as an artist, programmer, and designer.</p>
 
-            <p class="savvy">Freelance <span>+</span> Remote</p>
-          </div>
+          <p class="savvy">Freelance <span>+</span> Remote</p>
+        </div>
 
-          <h3 class="title">Education.</h3>
-          <div class="content margin">
-            <p class="savvy">Epicodus <span>+</span> Web Dev/Designer</p>
-            <p class="savvy">PCC Sylvania <span>+</span> AAS Web Dev/Design</p>
-            <p class="savvy">University of Montana <span>+</span> Psychology</p>
-          </div>
+        <h3 class="title">Education.</h3>
+        <div class="content margin">
+          <p class="savvy">Epicodus <span>+</span> Web Dev/Designer</p>
+          <p class="savvy">PCC Sylvania <span>+</span> AAS Web Dev/Design</p>
+          <p class="savvy">University of Montana <span>+</span> Psychology</p>
         </div>
       </div>
+    </div>
 
+    <!-- Websites -->
     <div class="columns white">
       <div class="mainColumn">
-
-        <!-- <div class="gallery">
-          <div class="box">
-            <h3 class="title">About.</h3>
-
-            <div class="content">
-              <p class="savvy"> Certified <span>+</span> Savvy <span>+</span> Front-end Website Developer <span>+</span> Graphic Designer <span>+</span> Visionary Artist</p>
-
-              <p class="savvy"> Driven by learning cutting-edge skills && networking on a day-to-day basis. <span>+</span> I thrive on beautiful, responsive, and clean design by constantly building and growing my knowledge as an artist, programmer, and designer.</p>
-
-              <p class="savvy">Freelance <span>+</span> Remote</p>
-            </div>
+        <div class="label" id="websites">
+          <ul class="list-none plus-minus">
+            <li><a href="#about">-</a></li>
+            <h3><span class="vertical-text">02</span>Websites.</h3>
+            <li><a href="#creations">+</a></li>
+          </ul>
         </div>
-          <div class="box">
-            <h3 class="title">Education.</h3>
-            <div class="content margin">
-              <p class="savvy">Epicodus <span>+</span> Web Dev/Designer</p>
-              <p class="savvy">PCC Sylvania <span>+</span> AAS Web Dev/Design</p>
-              <p class="savvy">University of Montana <span>+</span> Psychology</p>
-            </div>
+        <!-- Row One -->
+        <div class="gallery">
+          <div class="box" id="imageOne">
+            <a href="fashion.html"><img src="img/heart.svg" alt="Like" class="grow"></a>
           </div>
-        </div> -->
-
-      <div class="label" id="websites">
-        <ul class="list-none plus-minus">
-          <li><a href="#about">-</a></li>
-          <h3><span class="vertical-text">02</span>Websites.</h3>
-          <li><a href="#creations">+</a></li>
-        </ul>
-      </div>
-      <!-- <div class="columns white">
-        <div class="mainColumn"> -->
-          <!-- Row One -->
-          <div class="gallery">
-            <div class="box" id="imageOne">
-              <a href="fashion.html"><img src="img/heart.svg" alt="Like" class="grow"></a>
-            </div>
-            <div class="box" id="imageTwo">
-              <a href="exodus.html"><img src="img/heart.svg" alt="Like" class="grow"></a>
-            </div>
-            <div class="box" id="imageThree">
+          <div class="box" id="imageTwo">
+            <a href="exodus.html"><img src="img/heart.svg" alt="Like" class="grow"></a>
+          </div>
+          <div class="box" id="imageThree">
             <a href="terra-forma.html"><img src="img/heart.svg" alt="Like" class="grow"></a>
           </div>
         </div>
+
+        <!-- Graphic Design -->
+        <div class="label" id="creations">
+          <ul class="list-none plus-minus">
+            <li><a href="#websites">-</a></li>
+            <h3><span class="vertical-text">03</span>Graphic Design.</h3>
+            <li><a href="#mock-ups">+</a></li>
+          </ul>
+        </div>
         <!-- Row Two -->
-        <!-- <div class="gallery">
-          <div class="box" id="imageFour">
-            <a href="https://megankaluza.github.io/case-study/" target="_blank"><img src="img/heart.svg" alt="Like" class="grow"></a>
+        <div class="gallery">
+          <div class="box" id="imageThirteen">
+            <img src="img/heart.svg" alt="Like" class="grow" id="open4">
+            <div class="ui modal thirteen">
+              <div class="ui image">
+                <h4>Feral Black Logo</h4>
+                <img src="img/feral-black.png" alt="Feral Black Logo" class="create">
+              </div>
+              <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
+            </div>
           </div>
-          <div class="box" id="imageFive">
-            <a href="https://megankaluza.github.io/terra-forma/" target="_blank"><img src="img/white-heart.svg" alt="Like" class="grow"></a>
+          <div class="box" id="imageFourteen">
+            <img src="img/white-heart.svg" alt="Like" class="grow" id="open5">
+            <div class="ui modal fourteen">
+              <div class="ui image">
+                <h4>Feral White Logo</h4>
+                <img src="img/feral-white.png" alt="Feral White Logo" class="create">
+              </div>
+              <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
+            </div>
           </div>
-          <div class="box" id="imageSix">
-            <a href="https://megankaluza.github.io/ping-pong/" target="_blank"><img src="img/heart.svg" alt="Like" class="grow"></a>
-          </div> -->
-          <!-- <div class="box" id="imageSix">
-          <a href="https://megankaluza.github.io/roxy-bootstrap/" target="_blank"><img src="img/eyeblack.svg" alt="Like" class="grow"></a>
-        </div> -->
-      <!-- </div> -->
-      <!-- Row Three -->
-      <!-- <div class="gallery">
-        <div class="box" id="imageSeven">
-        <a href="https://megankaluza.github.io/graveyard-ninja/" target="_blank"><img src="img/eyeball.svg" alt="Like" class="grow"></a>
-      </div>
-      <div class="box" id="imageEight">
-        <a href="https://megankaluza.github.io/terra-forma/" target="_blank"><img src="img/crater.svg" alt="Like" class="grow"></a>
-      </div>
-      <div class="box" id="imageNine">
-        <a href="https://megankaluza.github.io/ping-pong/" target="_blank"><img src="img/crater.svg" alt="Like" class="grow"></a>
-      </div>
-    </div> -->
-    <div class="label" id="creations">
-      <ul class="list-none plus-minus">
-        <li><a href="#websites">-</a></li>
-        <h3><span class="vertical-text">03</span>Graphic Design.</h3>
-        <li><a href="#mock-ups">+</a></li>
-      </ul>
-    </div>
-    <!-- Row Four -->
-    <div class="gallery">
-      <div class="box" id="imageTen">
-        <img src="img/white-heart.svg" alt="Like" class="grow" id="open">
-        <div class="ui modal ten">
-          <div class="ui image">
-            <h4>The Originals Image One</h4>
-            <img src="img/originals.png" alt="Originals" class="create">
-          </div>
-          <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
         </div>
-      </div>
-      <div class="box" id="imageEleven">
-        <img src="img/white-heart.svg" alt="Like" class="grow" id="open2">
-        <div class="ui modal eleven">
-          <div class="ui image">
-            <h4>The Originals Image Two</h4>
-            <img src="img/next.png" alt="Originals 2" class="create">
+        <!-- Row Three -->
+        <div class="gallery">
+          <div class="box" id="imageSpecialist">
+            <img src="img/white-heart.svg" alt="Like" class="grow" id="openSpecialist">
+            <div class="ui modal specialist">
+              <div class="ui image">
+                <h4>Hybrid Cloud Specialist White</h4>
+                <img src="img/hybrid-white.png" alt="Hybrid Cloud Specialist White" class="create">
+              </div>
+              <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
+            </div>
           </div>
-          <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
-        </div>
-      </div>
-      <div class="box" id="imageTwelve">
-        <img src="img/white-heart.svg" alt="Like" class="grow" id="open3">
-        <div class="ui modal twelve">
-          <div class="ui image">
-            <h4>The Originals Image Three</h4>
-            <img src="img/last.png" alt="Originals 3" class="create">
+          <div class="box" id="imageSpecialistBlack">
+            <img src="img/heart.svg" alt="Like" class="grow" id="openSpecialistBlack">
+            <div class="ui modal specialistBlack">
+              <div class="ui image">
+                <h4>Hybrid Cloud Specialist Black</h4>
+                <img src="img/hybrid-cloud-specialist.png" alt="Hybrid Cloud Specialist Black" class="create">
+              </div>
+              <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
+            </div>
           </div>
-          <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
         </div>
-      </div>
-    </div>
-    <!-- Row Five -->
-    <div class="gallery">
-      <div class="box" id="imageThirteen">
-        <img src="img/heart.svg" alt="Like" class="grow" id="open4">
-        <div class="ui modal thirteen">
-          <div class="ui image">
-            <h4>Feral Black Logo</h4>
-            <img src="img/feral-black.png" alt="Feral Black Logo" class="create">
+        <!-- Row Four -->
+        <div class="gallery">
+          <div class="box" id="imageInsta">
+            <img src="img/heart.svg" alt="Like" class="grow" id="open7">
+            <div class="ui modal insta">
+              <div class="ui image">
+                <h4>Instagram</h4>
+                <img src="img/ig.png" alt="Instagram" class="create">
+              </div>
+              <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
+            </div>
           </div>
-          <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
         </div>
-      </div>
-      <div class="box" id="imageFourteen">
-        <img src="img/white-heart.svg" alt="Like" class="grow" id="open5">
-        <div class="ui modal fourteen">
-          <div class="ui image">
-            <h4>Feral White Logo</h4>
-            <img src="img/feral-white.png" alt="Feral White Logo" class="create">
+        
+        <!-- UX/UI -->
+        <div class="label" id="mock-ups">
+          <ul class="list-none plus-minus">
+            <li><a href="#creations">-</a></li>
+            <h3 class="white-label"><span class="vertical-text">04</span>Mock-Ups.</h3>
+            <li><a href="#footer">+</a></li>
+          </ul>
+        </div>
+        <!-- Row Five -->
+        <div class="gallery">
+          <div class="box" id="imageSixteen">
+            <img src="img/white-heart.svg" alt="Like" class="grow" id="open8">
+            <div class="ui modal sixteen">
+              <div class="ui image">
+                <h4>Tumblr Website/Mobile</h4>
+                <img src="img/tumblr.png" alt="Tumblr Website/Mobile" class="create">
+              </div>
+              <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
+            </div>
           </div>
-          <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
-        </div>
-      </div>
-    </div>
-<!-- Row Six -->
-    <div class="gallery">
-      <div class="box" id="imageFifteen">
-        <img src="img/white-heart.svg" alt="Like" class="grow" id="open6">
-        <div class="ui modal fifteen">
-          <div class="ui image">
-            <h4>Feral Dance Crew</h4>
-            <img src="img/feral-dance.png" alt="Feral Dance Crew" class="create">
+          <div class="box" id="imageSeventeen">
+            <img src="img/white-heart.svg" alt="Like" class="grow" id="open9">
+            <div class="ui modal seventeen">
+              <h4>Adidas Website</h4>
+              <div class="ui image">
+                <img src="img/adidas.png" alt="Adidas" class="create">
+              </div>
+              <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
+            </div>
           </div>
-          <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
         </div>
-      </div>
-    </div>
-    <!-- Row Seven -->
-    <div class="gallery">
-      <div class="box" id="imageInsta">
-        <img src="img/heart.svg" alt="Like" class="grow" id="open7">
-        <div class="ui modal insta">
-          <div class="ui image">
-            <h4>Instagram</h4>
-            <img src="img/ig.png" alt="Instagram" class="create">
+        <!-- Row Six -->
+        <div class="gallery">
+          <div class="box" id="imageEighteen">
+            <img src="img/heart.svg" alt="Like" class="grow" id="open10">
+            <div class="ui modal eighteen">
+              <div class="ui image">
+                <h4>Epicodus Mobile App</h4>
+                <img src="img/mobile.png" alt="Epicodus Mobile Mock-Up" class="create">
+              </div>
+              <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
+            </div>
           </div>
-          <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
         </div>
-      </div>
-    </div>
-    <!-- Row Eight -->
-    <!-- <div class="gallery">
-      <div class="box" id="imageGreen">
-        <img src="img/crater.svg" alt="Like" class="grow" id="openGreen">
-        <div class="ui modal green">
-          <div class="ui image">
-            <h4>UNiNSPiRED Green Eye</h4>
-            <img src="img/green.svg" alt="Green Icon" class="create">
+        <!-- Row Seven -->
+        <div class="gallery">
+          <div class="box" id="imageTwenty">
+            <img src="img/heart.svg" alt="Like" class="grow" id="open12">
+            <div class="ui modal twenty">
+              <div class="ui image">
+                <h4>Fashion Website</h4>
+                <h5>Rough Draft</h5>
+                <img src="img/rough-draft.png" alt="Rough Draft" class="create">
+                <h5>Final</h5>
+                <img src="img/fashion-mock-up.png" alt="Fasion Mock-Up" class="create">
+              </div>
+              <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
+            </div>
           </div>
-          <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
         </div>
-      </div>
-      <div class="box" id="imageRed">
-        <img src="img/crater.svg" alt="Like" class="grow" id="openRed">
-        <div class="ui modal red">
-          <div class="ui image">
-            <h4>UNiNSPiRED Red Eye</h4>
-            <img src="img/red.svg" alt="Red Icon" class="create">
+        <!-- Footer -->
+        <footer>
+          <div class="label">
+            <div class="contact" id="footer">
+              <a href="https://github.com/megankaluza" target="_blank"><img src="img/github.svg" alt="GitHub" class="grow social"></a>
+              <a href="https://www.linkedin.com/in/megan-kaluza" target="_blank"><img src="img/linkedin.svg" alt="LinkedIn" class="grow social"></a>
+              <a href="mailto:megan.kaluza@gmail.com?subject=feedback"><img src="img/email.svg" alt="Email" class="grow social"></a>
+            </div>
+            <h1 id="footer-title">&copy; M.Kaluza 2018</h1>
           </div>
-          <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
-        </div>
-      </div>
-      <div class="box" id="imageBlue">
-        <img src="img/crater.svg" alt="Like" class="grow" id="openBlue">
-        <div class="ui modal blue">
-          <div class="ui image">
-            <h4>UNiNSPiRED Blue Eye</h4>
-            <img src="img/blue.svg" alt="Blue Icon" class="create">
-          </div>
-          <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
-        </div>
-      </div>
-    </div> -->
-    <!-- Row Nine -->
-    <!-- <div class="gallery">
-      <div class="box" id="imageEyes">
-        <img src="img/crater-black.svg" alt="Like" class="grow" id="openEyes">
-        <div class="ui modal eyes">
-          <div class="ui image">
-            <h4>UNiNSPiRED Eyes</h4>
-            <img src="img/eyes.svg" alt="Uninspired Eyes" class="create">
-          </div>
-          <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
-        </div>
-      </div>
-    </div> -->
-    <!-- Row Ten -->
-    <!-- <div class="gallery">
-      <div class="box" id="imageIcons">
-        <img src="img/crater.svg" alt="Like" class="grow" id="openIcons">
-        <div class="ui modal icons">
-          <div class="ui image">
-            <h4>Social Media Icons</h4>
-            <img src="img/icons.svg" alt="Social Media Icons" class="create">
-          </div>
-          <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
-        </div>
-      </div>
-    </div> -->
-    <div class="label" id="mock-ups">
-      <ul class="list-none plus-minus">
-        <li><a href="#creations">-</a></li>
-        <h3 class="white-label"><span class="vertical-text">04</span>Mock-Ups.</h3>
-        <li><a href="#footer">+</a></li>
-      </ul>
-    </div>
-    <!-- Row Eleven -->
-    <div class="gallery">
-      <div class="box" id="imageSixteen">
-        <img src="img/white-heart.svg" alt="Like" class="grow" id="open8">
-        <div class="ui modal sixteen">
-          <div class="ui image">
-            <h4>Tumblr Website/Mobile</h4>
-            <img src="img/tumblr.png" alt="Tumblr Website/Mobile" class="create">
-          </div>
-          <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
-        </div>
-      </div>
-      <div class="box" id="imageSeventeen">
-        <img src="img/white-heart.svg" alt="Like" class="grow" id="open9">
-        <div class="ui modal seventeen">
-          <h4>Adidas Website</h4>
-          <div class="ui image">
-            <img src="img/adidas.png" alt="Adidas" class="create">
-          </div>
-          <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
-        </div>
+        </footer>
       </div>
     </div>
-    <!-- Row Twelve -->
-    <div class="gallery">
-      <div class="box" id="imageEighteen">
-        <img src="img/heart.svg" alt="Like" class="grow" id="open10">
-        <div class="ui modal eighteen">
-          <div class="ui image">
-            <h4>Epicodus Mobile App</h4>
-            <img src="img/mobile.png" alt="Epicodus Mobile Mock-Up" class="create">
-          </div>
-          <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
-        </div>
-      </div>
-      <!-- <div class="box" id="imageNineteen">
-        <img src="img/heart.svg" alt="Like" class="grow" id="open11">
-        <div class="ui modal nineteen">
-          <div class="ui image">
-            <h4>Bitchin' Kitchen Mobile App</h4>
-            <img src="img/bk.png" alt="Bitchin Kitchen Mobile Mock-Up" class="create">
-          </div>
-          <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
-        </div>
-      </div> -->
-    </div>
-    <!-- Row Thirteen -->
-    <div class="gallery">
-      <div class="box" id="imageTwenty">
-        <img src="img/heart.svg" alt="Like" class="grow" id="open12">
-        <div class="ui modal twenty">
-          <div class="ui image">
-            <h4>Fashion Website</h4>
-            <h5>Rough Draft</h5>
-            <img src="img/rough-draft.png" alt="Rough Draft" class="create">
-            <h5>Final</h5>
-            <img src="img/fashion-mock-up.png" alt="Fasion Mock-Up" class="create">
-          </div>
-          <p><img src="img/exit.png" alt="Exit" class="exit grow"></p>
-        </div>
-      </div>
-    </div>
-    <!-- <div class="label" id="contact">
-    <h2>Contact</h2>
-    <a href="https://github.com/megankaluza" target="_blank"><img src="img/github.svg" alt="GitHub" class="grow icon"></a>
-    <a href="https://www.linkedin.com/in/megan-kaluza" target="_blank"><img src="img/linkedin.svg" alt="LinkedIn" class="grow icon"></a>
-    <a href="mailto:megan.kaluza@gmail.com?subject=feedback"><img src="img/email.svg" alt="Email" class="grow icon"></a>
-  </div> -->
-  <footer>
-    <div class="label">
-      <div class="contact" id="footer">
-        <a href="https://github.com/megankaluza" target="_blank"><img src="img/github.svg" alt="GitHub" class="grow social"></a>
-        <a href="https://www.linkedin.com/in/megan-kaluza" target="_blank"><img src="img/linkedin.svg" alt="LinkedIn" class="grow social"></a>
-        <a href="mailto:megan.kaluza@gmail.com?subject=feedback"><img src="img/email.svg" alt="Email" class="grow social"></a>
-      </div>
-      <h1 id="footer-title">&copy; M.Kaluza 2018</h1>
-    </div>
-  </footer>
-</div>
-</div>
-<!-- </div> -->
-<script
-src="https://code.jquery.com/jquery-3.1.1.min.js"
-integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-crossorigin="anonymous"></script>
-<!--Semantic-->
-<script src="semantic/dist/semantic.min.js"></script>
-<!--Scripts-->
-<script src="js/scripts.js"></script>
-</body>
-</html>
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    <!--Semantic-->
+    <script src="semantic/dist/semantic.min.js"></script>
+    <!--Scripts-->
+    <script src="js/scripts.js"></script>
+  </body>
+  </html>
