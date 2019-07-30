@@ -1,37 +1,19 @@
-@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond|Molle:400i|Yanone+Kaffeesatzz|Cookie|Lora|Dosis|Yellowtail");
-@import url("https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Cabin&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cabin&display=swap|Molle:400i");
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-#imageOne,
-#imageTwo,
-#imageThree,
-#imageFour,
-#imageFive,
-#imageSix,
-#imageSeven,
-#imageEight,
-#imageNine,
-#imageTen,
-#imageEleven,
-#imageTwelve,
-#imageThirteen,
-#imageFourteen,
-#imageFifteen,
-#imageSixteen,
-#imageSeventeen,
-#imageEighteen,
-#imageNineteen,
-#imageTwenty,
+#imageFashion,
+#imageExodus,
+#imageTerraForma,
+#imageFeralBlack,
+#imageFeralWhite,
+#imageTumblr,
+#imageAdidas,
+#imageMobile,
+#imageAesthetic,
 #imageInsta,
-#imageIcons,
-#imageBlue,
-#imageGreen,
-#imageRed,
-#imageEyes,
 #imageSpecialist,
 #imageSpecialistBlack, .columns, .gallery {
   display: flex; }
@@ -39,94 +21,46 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #footer-title, .contact, .intro, .label {
   text-align: center; }
 
-#imageOne,
-#imageTwo,
-#imageThree,
-#imageFour,
-#imageFive,
-#imageSix,
-#imageSeven,
-#imageEight,
-#imageNine,
-#imageTen,
-#imageEleven,
-#imageTwelve,
-#imageThirteen,
-#imageFourteen,
-#imageFifteen,
-#imageSixteen,
-#imageSeventeen,
-#imageEighteen,
-#imageNineteen,
-#imageTwenty,
+#imageFashion,
+#imageExodus,
+#imageTerraForma,
+#imageFeralBlack,
+#imageFeralWhite,
+#imageTumblr,
+#imageAdidas,
+#imageMobile,
+#imageAesthetic,
 #imageInsta,
-#imageIcons,
-#imageBlue,
-#imageGreen,
-#imageRed,
-#imageEyes,
 #imageSpecialist,
 #imageSpecialistBlack {
   opacity: .5; }
 
-#imageOne,
-#imageTwo,
-#imageThree,
-#imageFour,
-#imageFive,
-#imageSix,
-#imageSeven,
-#imageEight,
-#imageNine,
-#imageTen,
-#imageEleven,
-#imageTwelve,
-#imageThirteen,
-#imageFourteen,
-#imageFifteen,
-#imageSixteen,
-#imageSeventeen,
-#imageEighteen,
-#imageNineteen,
-#imageTwenty,
+#imageFashion,
+#imageExodus,
+#imageTerraForma,
+#imageFeralBlack,
+#imageFeralWhite,
+#imageTumblr,
+#imageAdidas,
+#imageMobile,
+#imageAesthetic,
 #imageInsta,
-#imageIcons,
-#imageBlue,
-#imageGreen,
-#imageRed,
-#imageEyes,
 #imageSpecialist,
 #imageSpecialistBlack {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat; }
 
-#imageOne,
-#imageTwo,
-#imageThree,
-#imageFour,
-#imageFive,
-#imageSix,
-#imageSeven,
-#imageEight,
-#imageNine,
-#imageTen,
-#imageEleven,
-#imageTwelve,
-#imageThirteen,
-#imageFourteen,
-#imageFifteen,
-#imageSixteen,
-#imageSeventeen,
-#imageEighteen,
-#imageNineteen,
-#imageTwenty,
+#imageFashion,
+#imageExodus,
+#imageTerraForma,
+#imageFeralBlack,
+#imageFeralWhite,
+#imageTumblr,
+#imageAdidas,
+#imageMobile,
+#imageAesthetic,
 #imageInsta,
-#imageIcons,
-#imageBlue,
-#imageGreen,
-#imageRed,
-#imageEyes,
 #imageSpecialist,
 #imageSpecialistBlack {
   align-items: center;
@@ -379,6 +313,11 @@ h3 {
   font-family: "Cabin", sans-serif;
   padding: 2em; }
 
+h3.signature {
+  font-family: "Molle", cursive;
+  font-variant: normal;
+  text-align: right; }
+
 h3.title {
   padding: .5em;
   text-align: center; }
@@ -500,73 +439,45 @@ span {
     filter: none;
     -webkit-filter: grayscale(0%); }
 
-#imageOne:hover,
-#imageTwo:hover,
-#imageThree:hover,
-#imageFour:hover,
-#imageFive:hover,
-#imageSix:hover,
-#imageSeven:hover,
-#imageEight:hover,
-#imageNine:hover,
-#imageTen:hover,
-#imageEleven:hover,
-#imageTwelve:hover,
-#imageThirteen:hover,
-#imageFourteen:hover,
-#imageFifteen:hover,
-#imageSixteen:hover,
-#imageSeventeen:hover,
-#imageEighteen:hover,
-#imageNineteen:hover,
-#imageTwenty:hover,
+#imageFashion:hover,
+#imageExodus:hover,
+#imageTerraForma:hover,
+#imageFeralBlack:hover,
+#imageFeralWhite:hover,
+#imageTumblr:hover,
+#imageAdidas:hover,
+#imageMobile:hover,
+#imageAesthetic:hover,
 #imageInsta:hover,
-#imageIcons:hover,
-#imageBlue:hover,
-#imageGreen:hover,
-#imageRed:hover,
-#imageEyes:hover,
 #imageSpecialist:hover,
 #imageSpecialistBlack:hover {
   opacity: 1; }
 
-#imageOne {
+#imageFashion {
   background-image: url("../img/aesthetic-home.png"); }
 
-#imageTwo {
+#imageExodus {
   background-image: url("../img/exodus-home.png"); }
 
-#imageThree {
+#imageTerraForma {
   background-image: url("../img/terra-forma.png"); }
 
-#imageTen {
-  background-image: url("../img/originals.png"); }
-
-#imageEleven {
-  background-image: url("../img/next.png"); }
-
-#imageTwelve {
-  background-image: url("../img/last.png"); }
-
-#imageThirteen {
+#imageFeralBlack {
   background-image: url("../img/feral-black.png"); }
 
-#imageFourteen {
+#imageFeralWhite {
   background-image: url("../img/feral-white.png"); }
 
-#imageFifteen {
-  background-image: url("../img/feral-dance.png"); }
-
-#imageSixteen {
+#imageTumblr {
   background-image: url("../img/tumblr.png"); }
 
-#imageSeventeen {
+#imageAdidas {
   background-image: url("../img/adidas.png"); }
 
-#imageEighteen {
+#imageMobile {
   background-image: url("../img/mobile.png"); }
 
-#imageTwenty {
+#imageAesthetic {
   background-image: url("../img/fashion-mock-up.png"); }
 
 #imageInsta {

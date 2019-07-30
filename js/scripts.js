@@ -57,113 +57,50 @@ $(document).ready(function(){
   $('.exit').click(function(){
     $('.modal').modal('hide');
   });
-  $('#open2').click(function(){
-    $('.eleven')
+  $('#openFeralBlack').click(function(){
+    $('.feralBlack')
     .modal({
       blurring: true
     })
     .modal('show');
   });
-  $('#open3').click(function(){
-    $('.twelve')
+  $('#openFeralWhite').click(function(){
+    $('.feralWhite')
     .modal({
       blurring: true
     })
     .modal('show');
   });
-  $('#open4').click(function(){
-    $('.thirteen')
-    .modal({
-      blurring: true
-    })
-    .modal('show');
-  });
-  $('#open5').click(function(){
-    $('.fourteen')
-    .modal({
-      blurring: true
-    })
-    .modal('show');
-  });
-  $('#open6').click(function(){
-    $('.fifteen')
-    .modal({
-      blurring: true
-    })
-    .modal('show');
-  });
-  $('#open7').click(function(){
+  $('#openInsta').click(function(){
     $('.insta')
     .modal({
       blurring: true
     })
     .modal('show');
   });
-  $('#open8').click(function(){
-    $('.sixteen')
+  $('#openTumblr').click(function(){
+    $('.tumblr')
     .modal({
       blurring: true
     })
     .modal('show');
   });
-  $('#open9').click(function(){
-    $('.seventeen')
+  $('#openAdidas').click(function(){
+    $('.adidas')
     .modal({
       blurring: true
     })
     .modal('show');
   });
-  $('#open10').click(function(){
-    $('.eighteen')
+  $('#openMobile').click(function(){
+    $('.mobile')
     .modal({
       blurring: true
     })
     .modal('show');
   });
-  $('#open11').click(function(){
-    $('.nineteen')
-    .modal({
-      blurring: true
-    })
-    .modal('show');
-  });
-  $('#open12').click(function(){
-    $('.twenty')
-    .modal({
-      blurring: true
-    })
-    .modal('show');
-  });
-  $('#openIcons').click(function(){
-    $('.icons')
-    .modal({
-      blurring: true
-    })
-    .modal('show');
-  });
-  $('#openGreen').click(function(){
-    $('.green')
-    .modal({
-      blurring: true
-    })
-    .modal('show');
-  });
-  $('#openRed').click(function(){
-    $('.red')
-    .modal({
-      blurring: true
-    })
-    .modal('show');
-  });
-  $('#openBlue').click(function(){
-    $('.blue')
-    .modal({
-      blurring: true
-    })
-    .modal('show');
-  });
-  $('#openEyes').click(function(){
-    $('.eyes')
+  $('#openAesthetic').click(function(){
+    $('.aesthetic')
     .modal({
       blurring: true
     })

@@ -1,7 +1,5 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Molle:400i|Yanone+Kaffeesatzz|Cookie|Lora|Dosis|Yellowtail');
-@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap|Molle:400i');
 
 // Sass Components
 @import "base/index";
@@ -15,6 +13,12 @@ h3 {
   font-variant: small-caps;
   font-family: $stack-cabin;
   padding: 2em;
+}
+
+h3.signature {
+  font-family: $stack-molle;
+  font-variant: normal;
+  text-align: right;
 }
 
 h3.title {
@@ -181,32 +185,16 @@ span {
   }
 }
 
-#imageOne,
-#imageTwo,
-#imageThree,
-#imageFour,
-#imageFive,
-#imageSix,
-#imageSeven,
-#imageEight,
-#imageNine,
-#imageTen,
-#imageEleven,
-#imageTwelve,
-#imageThirteen,
-#imageFourteen,
-#imageFifteen,
-#imageSixteen,
-#imageSeventeen,
-#imageEighteen,
-#imageNineteen,
-#imageTwenty,
+#imageFashion,
+#imageExodus,
+#imageTerraForma,
+#imageFeralBlack,
+#imageFeralWhite,
+#imageTumblr,
+#imageAdidas,
+#imageMobile,
+#imageAesthetic,
 #imageInsta,
-#imageIcons,
-#imageBlue,
-#imageGreen,
-#imageRed,
-#imageEyes,
 #imageSpecialist,
 #imageSpecialistBlack {
   @extend %align;
@@ -217,83 +205,39 @@ span {
   }
 }
 
-#imageOne {
+#imageFashion {
   background-image: url('#{$path-img}/aesthetic-home.png');
 }
 
-#imageTwo {
+#imageExodus {
   background-image: url('#{$path-img}/exodus-home.png');
 }
 
-#imageThree {
+#imageTerraForma {
   background-image: url('#{$path-img}/terra-forma.png');
 }
 
-// #imageFour {
-//   background-image: url('#{$path-img}/neurons.jpg');
-// }
-//
-// #imageFive {
-//   background-image: url('#{$path-img}/terra-forma.png');
-// }
-//
-// #imageSix {
-//   background-image: url('#{$path-img}/ping-pong.png');
-// }
-//
-// #imageSeven {
-//   background-image: url('#{$path-img}/graveyard_ninja.png');
-// }
-
-// #imageEight {
-//   background-image: url('#{$path-img}/terra-forma.svg');
-// }
-//
-// #imageNine {
-//   background-image: url('#{$path-img}/ping-pong.svg');
-// }
-
-#imageTen {
-  background-image: url('#{$path-img}/originals.png');
-}
-
-#imageEleven {
-  background-image: url('#{$path-img}/next.png');
-}
-
-#imageTwelve {
-  background-image: url('#{$path-img}/last.png');
-}
-
-#imageThirteen {
+#imageFeralBlack {
   background-image: url('#{$path-img}/feral-black.png');
 }
 
-#imageFourteen {
+#imageFeralWhite {
   background-image: url('#{$path-img}/feral-white.png');
 }
 
-#imageFifteen {
-  background-image: url('#{$path-img}/feral-dance.png');
-}
-
-#imageSixteen {
+#imageTumblr {
   background-image: url('#{$path-img}/tumblr.png');
 }
 
-#imageSeventeen {
+#imageAdidas {
   background-image: url('#{$path-img}/adidas.png');
 }
 
-#imageEighteen {
+#imageMobile {
   background-image: url('#{$path-img}/mobile.png');
 }
 
-// #imageNineteen {
-//   background-image: url('#{$path-img}/bk.png');
-// }
-
-#imageTwenty {
+#imageAesthetic {
   background-image: url('#{$path-img}/fashion-mock-up.png');
 }
 
@@ -308,26 +252,6 @@ span {
 #imageSpecialistBlack {
   background-image: url('#{$path-img}/hybrid-cloud-specialist.png');
 }
-
-// #imageIcons {
-//   background-image: url('#{$path-img}/icons.svg');
-// }
-//
-// #imageGreen {
-//   background-image: url('#{$path-img}/green.svg');
-// }
-//
-// #imageRed {
-//   background-image: url('#{$path-img}/red.svg');
-// }
-//
-// #imageBlue {
-//   background-image: url('#{$path-img}/blue.svg');
-// }
-//
-// #imageEyes {
-//   background-image: url('#{$path-img}/eyes.svg');
-// }
 
 // Media Queries
 @media only screen and
