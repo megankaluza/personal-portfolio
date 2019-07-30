@@ -23,7 +23,7 @@ h3.signature {
 
 h3.title {
   padding: .5em;
-  text-align: center;
+  @extend %centered;
 }
 
 p {
@@ -34,43 +34,39 @@ span {
   color: $madder;
 }
 
-.case-study {
-  display: block;
-  margin: 0 auto;
-  width: 55%;
-  height: 100%;
-}
+// .case-study {
+//   @extend %block;
+//   width: 55%;
+//   height: 100%;
+// }
 
-.center {
-  margin-left: auto;
-  margin-right: auto;
-}
+// .center {
+//   margin-left: auto;
+//   margin-right: auto;
+// }
 
 .contact {
   @extend %centered;
 }
 
-.container {
-  display: flex-inline;
-}
+// .container {
+//   display: flex-inline;
+// }
 
 .content {
   border: 2px solid $black;
-  display: block;
-  margin: 0 auto;
+  @extend %block;
   width: 500px;
 }
 
-.credentials {
-  display: block;
-  margin: 0 auto;
-  padding-bottom: 1em;
-  width: 45%;
-}
+// .credentials {
+//   @extend %block;
+//   padding-bottom: 1em;
+//   width: 45%;
+// }
 
 .exit {
-  display: block;
-  margin: 0 auto;
+  @extend %block;
   width: 30px;
 }
 
@@ -82,10 +78,10 @@ span {
   }
 }
 
-.icon {
-  margin: 1em;
-  width: 3em;
-}
+// .icon {
+//   margin: 1em;
+//   width: 3em;
+// }
 
 .image {
   width: 90%;
@@ -122,9 +118,8 @@ span {
   color: $black;
 }
 
-.savvy {
-  display: block;
-  margin: 0 auto;
+.about-me {
+  @extend %block;
   padding: 2em;
   width: 60%;
 }
@@ -136,18 +131,22 @@ span {
 
 .plus-minus {
   padding: 1em;
+  li a {
+    color: $black;
+    font-size: 2em;
+  }
 }
 
-.plus-minus li a {
-  color: $black;
-  font-size: 2em;
-}
+// .plus-minus li a {
+//   color: $black;
+//   font-size: 2em;
+// }
 
 .vertical-text {
   color: $madder;
+  display: inline-block;
   font-family: $stack-cabin;
   transform: rotate(-90deg);
-  display: inline-block;
 }
 
 // Columns
@@ -290,7 +289,7 @@ and (max-width: 415px) {
   }
 
   .content {
-    border: 2px solid $black;
+    border: 10px solid $black;
     display: block;
     margin: 0 auto;
     width: 290px;

@@ -71,12 +71,6 @@ a:link {
   text-decoration: none;
 }
 
-// .logo {
-//   @extend %flex;
-//   width: 3em;
-//   align-items: center;
-// }
-
 #header-title {
   @extend %centered;
   font-size: 3em;
@@ -85,7 +79,6 @@ a:link {
 }
 
 // Video
-
 ::-webkit-media-controls {
   display:none !important;
 }

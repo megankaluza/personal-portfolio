@@ -21,16 +21,6 @@
   background-repeat: no-repeat;
 }
 
-// Margin
-// %text {
-//   @extend %opacity;
-//   width: 50%;
-//   font-size: 1em;
-//   margin: 4em;
-//   padding: 2em;
-//   border-radius: 1em;
-// }
-
 // Navigation
 %navigation {
   background: $white;
@@ -66,4 +56,10 @@
   @extend %flex;
   align-items: center;
   justify-content: center;
+}
+
+// Centered Block
+%block {
+  display: block;
+  margin: 0 auto;
 }

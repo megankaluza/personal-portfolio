@@ -18,7 +18,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageSpecialistBlack, .columns, .gallery {
   display: flex; }
 
-#footer-title, .contact, .intro, .label {
+#footer-title, h3.title, .contact, .intro, .label {
   text-align: center; }
 
 #imageFashion,
@@ -65,6 +65,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #imageSpecialistBlack {
   align-items: center;
   justify-content: center; }
+
+.content, .exit, .about-me {
+  display: block;
+  margin: 0 auto; }
 
 h4,
 h5 {
@@ -319,8 +323,7 @@ h3.signature {
   text-align: right; }
 
 h3.title {
-  padding: .5em;
-  text-align: center; }
+  padding: .5em; }
 
 p {
   padding: 1.5em; }
@@ -328,34 +331,11 @@ p {
 span {
   color: #E71D36; }
 
-.case-study {
-  display: block;
-  margin: 0 auto;
-  width: 55%;
-  height: 100%; }
-
-.center {
-  margin-left: auto;
-  margin-right: auto; }
-
-.container {
-  display: flex-inline; }
-
 .content {
   border: 2px solid #000000;
-  display: block;
-  margin: 0 auto;
   width: 500px; }
 
-.credentials {
-  display: block;
-  margin: 0 auto;
-  padding-bottom: 1em;
-  width: 45%; }
-
 .exit {
-  display: block;
-  margin: 0 auto;
   width: 30px; }
 
 .grow {
@@ -363,10 +343,6 @@ span {
   transition: all .2s ease-in-out; }
   .grow:hover {
     transform: scale(1.1); }
-
-.icon {
-  margin: 1em;
-  width: 3em; }
 
 .image {
   width: 90%; }
@@ -394,9 +370,7 @@ span {
 .name {
   color: #000000; }
 
-.savvy {
-  display: block;
-  margin: 0 auto;
+.about-me {
   padding: 2em;
   width: 60%; }
 
@@ -406,16 +380,15 @@ span {
 
 .plus-minus {
   padding: 1em; }
-
-.plus-minus li a {
-  color: #000000;
-  font-size: 2em; }
+  .plus-minus li a {
+    color: #000000;
+    font-size: 2em; }
 
 .vertical-text {
   color: #E71D36;
+  display: inline-block;
   font-family: "Cabin", sans-serif;
-  transform: rotate(-90deg);
-  display: inline-block; }
+  transform: rotate(-90deg); }
 
 .column {
   width: 200px;
@@ -511,7 +484,7 @@ span {
     height: 100%; }
 
   .content {
-    border: 2px solid #000000;
+    border: 10px solid #000000;
     display: block;
     margin: 0 auto;
     width: 290px; }
