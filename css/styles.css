@@ -66,7 +66,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   align-items: center;
   justify-content: center; }
 
-.content, .exit, .about-me {
+.case-study, .content, .credentials, .exit, .about-me, .savvy {
   display: block;
   margin: 0 auto; }
 
@@ -331,9 +331,24 @@ p {
 span {
   color: #E71D36; }
 
+.case-study {
+  width: 55%;
+  height: 100%; }
+
+.center {
+  margin-left: auto;
+  margin-right: auto; }
+
+.container {
+  display: flex-inline; }
+
 .content {
-  border: 2px solid #000000;
-  width: 500px; }
+  border: 8px solid #000000;
+  width: 600px; }
+
+.credentials {
+  padding-bottom: 1em;
+  width: 45%; }
 
 .exit {
   width: 30px; }
@@ -343,6 +358,10 @@ span {
   transition: all .2s ease-in-out; }
   .grow:hover {
     transform: scale(1.1); }
+
+.icon {
+  margin: 1em;
+  width: 3em; }
 
 .image {
   width: 90%; }
@@ -374,6 +393,10 @@ span {
   padding: 2em;
   width: 60%; }
 
+.savvy {
+  padding: 1em;
+  width: 60%; }
+
 .social {
   margin: 1.3em .2em;
   width: 1.2em; }
@@ -383,6 +406,10 @@ span {
   .plus-minus li a {
     color: #000000;
     font-size: 2em; }
+
+.plus-minus li a {
+  color: #000000;
+  font-size: 2em; }
 
 .vertical-text {
   color: #E71D36;

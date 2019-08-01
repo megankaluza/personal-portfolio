@@ -34,36 +34,36 @@ span {
   color: $madder;
 }
 
-// .case-study {
-//   @extend %block;
-//   width: 55%;
-//   height: 100%;
-// }
+.case-study {
+  @extend %block;
+  width: 55%;
+  height: 100%;
+}
 
-// .center {
-//   margin-left: auto;
-//   margin-right: auto;
-// }
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .contact {
   @extend %centered;
 }
 
-// .container {
-//   display: flex-inline;
-// }
-
-.content {
-  border: 2px solid $black;
-  @extend %block;
-  width: 500px;
+.container {
+  display: flex-inline;
 }
 
-// .credentials {
-//   @extend %block;
-//   padding-bottom: 1em;
-//   width: 45%;
-// }
+.content {
+  border: 8px solid $black;
+  @extend %block;
+  width: 600px;
+}
+
+.credentials {
+  @extend %block;
+  padding-bottom: 1em;
+  width: 45%;
+}
 
 .exit {
   @extend %block;
@@ -78,10 +78,10 @@ span {
   }
 }
 
-// .icon {
-//   margin: 1em;
-//   width: 3em;
-// }
+.icon {
+  margin: 1em;
+  width: 3em;
+}
 
 .image {
   width: 90%;
@@ -124,6 +124,12 @@ span {
   width: 60%;
 }
 
+.savvy {
+  @extend %block;
+  padding: 1em;
+  width: 60%;
+}
+
 .social {
   margin: 1.3em .2em;
   width: 1.2em;
@@ -137,10 +143,10 @@ span {
   }
 }
 
-// .plus-minus li a {
-//   color: $black;
-//   font-size: 2em;
-// }
+.plus-minus li a {
+  color: $black;
+  font-size: 2em;
+}
 
 .vertical-text {
   color: $madder;
